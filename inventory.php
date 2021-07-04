@@ -248,6 +248,78 @@
                     <div class="d-sm-flex align-items-center mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Inventarios</h1>
                     </div>
+                    <!-- Ends Page Heading -->
+
+                    <!-- Filters -->
+                    <div class="row">
+
+                        <div class="col mb-4">
+                            <div class="card shadow h-100">
+                             
+                                <!-- Card Title -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Filtros</h6>
+                                </div>
+                                <!-- Ends Card Title -->
+
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="row">
+
+                                        <!-- Category Select -->
+                                        <div class="col-xl-3 col-md-6 mb-4">
+                                            <label for="category">Categoría</label>
+                                            <select name="category" id="category" class="custom-select">
+                                                <option value="0">Anillos</option>
+                                                <option value="1">Dijes</option>
+                                                <option value="2">Collares</option>
+                                                <option value="3">Relojes</option>
+                                                <option value="4">Pulseras</option>
+                                                <option value="5">Aretes</option>
+                                            </select>
+                                        </div>
+                                        <!-- Ends Category Select -->
+
+                                        <!-- Kilate Select -->
+                                        <div class="col-xl-3 col-md-6 mb-4">
+                                            <label for="kilate">Kilataje</label>
+                                            <select name="kilate" id="kilate" class="custom-select">
+                                                <option value="0">10K</option>
+                                                <option value="1">14K</option>
+                                                <option value="2">18K</option>
+                                            </select>
+                                        </div>
+                                        <!-- Ends Kilate Select -->
+
+                                        <!-- Vendor Select -->
+                                        <div class="col-xl-3 col-md-6 mb-4">
+                                            <label for="vendor">Proveedor</label>
+                                            <select name="vendor" id="vendor" class="custom-select">
+                                                <option value="0">Pedrito</option>
+                                                <option value="1">Sola</option>
+                                                <option value="2">Diani</option>
+                                            </select>
+                                        </div>
+                                        <!-- Ends Vendor Select -->
+
+                                        <!-- Barcode Select -->
+                                        <div class="col-xl-3 col-md-6 mb-4">
+                                            <label for="barcode">Código de Barras</label>
+                                            <select name="barcode" id="barcode" class="custom-select">
+                                                <option value="0">102315666</option>
+                                                <option value="1">239832234</option>
+                                                <option value="2">098234234</option>
+                                            </select>
+                                        </div>
+                                        <!-- Ends Barcode Select -->
+                                    </div>
+                                </div>
+                                <!-- Ends Card Body -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Ends filters -->
 
                     <!-- Content Row -->
                     <div class="row">
@@ -335,7 +407,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Content Row -->
 
                     <div class="row">
