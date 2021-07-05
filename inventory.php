@@ -20,6 +20,9 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -409,6 +412,83 @@
                     </div>
                     <!-- Content Row -->
 
+                    <!-- Principal Table -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Tabla Principal</h6>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table" id="inventory-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Categoría</th>
+                                                <th>Cantidad</th>
+                                                <th>Unidad de Medida</th>
+                                                <th>Kilataje</th>
+                                                <th>Proveedor</th>
+                                                <th>Código de Barras</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anillos</td>
+                                                <td>10</td>
+                                                <td>Gramos</td>
+                                                <td>10K</td>
+                                                <td>Pedrito Sola</td>
+                                                <td>10078654</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ends Principal Table -->
+
                     <div class="row">
 
                         <!-- Area Chart -->
@@ -690,11 +770,21 @@
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+
+    <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/inventory.js"></script>
 
 </body>
 
